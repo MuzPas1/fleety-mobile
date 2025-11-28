@@ -41,10 +41,7 @@
       "typedRoutes": false
     },
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "1ac8339c-f11f-428c-88a1-8b300f6ae188"
-      }
+      "router": {}
     },
     "owner": "zoggy"
   }
