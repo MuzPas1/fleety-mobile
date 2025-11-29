@@ -20,14 +20,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#1FA4FF"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
 
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
 
     "plugins": [
@@ -35,19 +34,13 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#F8FAFF"
+          "backgroundColor": "#032240"
         }
       ]
     ],
 
-    "experiments": {
-      "typedRoutes": false
-    },
-
     "extra": {
-      "router": {},
       "eas": {
         "projectId": "1ac8339c-f11f-428c-88a1-8b300f6ae188"
       }
