@@ -1,23 +1,22 @@
 {
   "cli": {
-    "version": ">= 5.2.0"
+    "appVersionSource": "remote"
   },
   "build": {
     "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "ios": {
-        "simulator": true
+      "env": {
+        "EXPO_NODE_VERSION": "20"
       }
     },
     "preview": {
-      "distribution": "internal"
+      "env": {
+        "EXPO_NODE_VERSION": "20"
+      }
     },
     "production": {
-      "distribution": "store"
+      "env": {
+        "EXPO_NODE_VERSION": "20"
+      }
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
