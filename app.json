@@ -7,6 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "fleety",
     "userInterfaceStyle": "light",
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.zoggy.fleety",
@@ -14,6 +15,7 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
@@ -21,11 +23,13 @@
       },
       "edgeToEdgeEnabled": true
     },
+
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+
     "plugins": [
       [
         "expo-splash-screen",
@@ -37,15 +41,18 @@
         }
       ]
     ],
+
     "experiments": {
       "typedRoutes": false
     },
+
     "extra": {
       "router": {},
       "eas": {
         "projectId": "1ac8339c-f11f-428c-88a1-8b300f6ae188"
       }
     },
+
     "owner": "zoggy"
   }
 }
